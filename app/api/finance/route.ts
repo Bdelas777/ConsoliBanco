@@ -12,22 +12,32 @@ export async function POST(req: Request) {
     let savings = salary * 0.20; // Cambiado a let porque será modificado si hay deudas
     let debtRepayment = 0;
   
+    // Si hay deudas, calcular el pago y ajustar el ahorro en función de ello
     if (hasDebts) {
-      debtRepayment = studentLoans ? studentLoans * 0.20 : salary * 0.15;
-      savings -= debtRepayment; // Ahora savings se puede reasignar sin problemas
+        debtRepayment = studentLoans ? studentLoans * 0.20 : salary * 0.15;
+        savings -= debtRepayment; // Ahora savings se puede reasignar sin problemas
     }
-  
+
+    // Evitar valores negativos, asegurando que los ahorros no sean negativos
+    if (savings < 0) {
+        savings = 0;
+    }
+
+    // Evitar que el pago de deudas exceda los ahorros o se vuelva negativo
+    if (debtRepayment < 0) {
+        debtRepayment = 0;
+    }
+
     const plan = {
-      basicNeeds,
-      discretionary,
-      savings,
-      debtRepayment,
-      goals,
+        basicNeeds,
+        discretionary,
+        savings,
+        debtRepayment,
+        goals,
     };
   
     return new Response(JSON.stringify(plan), {
-      status: 200,
-      headers: { "Content-Type": "application/json" },
+        status: 200,
+        headers: { "Content-Type": "application/json" },
     });
-  }
-  
+}
