@@ -1,5 +1,7 @@
 # ConsoliBanco
 
+#Importante
+Poner el state o estado solo con 2 caracteres
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -109,4 +111,4 @@ Para obtener esos valores les dejó las siguientes ligas [Appwrite](https://appw
 
 Diagrama  de funcionamiento [here](https://www.canva.com/design/DAGQxak7F4I/NVPAPoPTxWPi5BqwcIfIpg/edit?utm_content=DAGQxak7F4I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-Presentación [here](https://www.canva.com/design/DAGQxak7F4I/NVPAPoPTxWPi5BqwcIfIpg/edit?utm_content=DAGQxak7F4I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)]
+Presentación [here](https://docs.google.com/presentation/d/1FBAc9GuvSHg6PpeZlqY6fVSpDp47Mdzp/edit?usp=sharing&ouid=101944253581504655268&rtpof=true&sd=true) 
