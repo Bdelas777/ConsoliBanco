@@ -1,6 +1,16 @@
 # ConsoliBanco
 
-#Importante
+## Vercel
+
+Enlace en vivo: https://consoli-banco.vercel.app/sign-in
+
+Para acceder introduzca lo siguiente:
+
+Email: bsr@gmail.com
+
+Password: papita12
+
+## Importante
 
 Poner el state o estado solo con 2 caracteres
 
@@ -47,7 +57,7 @@ Poner el state o estado solo con 2 caracteres
 
 ## <a name="quick-start">¿Cómo usarlo?</a>
 
-Tienes que tener lo siguiente_
+Tienes que tener lo siguiente:
 
 **Prerequisitos**
 
@@ -110,6 +120,34 @@ Para obtener esos valores les dejó las siguientes ligas [Appwrite](https://appw
 
 ## <a name="links">🔗 Enlaces</a>
 
-Diagrama  de funcionamiento [here](https://www.canva.com/design/DAGQxak7F4I/NVPAPoPTxWPi5BqwcIfIpg/edit?utm_content=DAGQxak7F4I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+Diagrama  de funcionamiento [aqui](https://www.canva.com/design/DAGQxak7F4I/NVPAPoPTxWPi5BqwcIfIpg/edit?utm_content=DAGQxak7F4I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-Presentación [here](https://docs.google.com/presentation/d/1FBAc9GuvSHg6PpeZlqY6fVSpDp47Mdzp/edit?usp=sharing&ouid=101944253581504655268&rtpof=true&sd=true) 
+Presentación [aqui](https://docs.google.com/presentation/d/1FBAc9GuvSHg6PpeZlqY6fVSpDp47Mdzp/edit?usp=sharing&ouid=101944253581504655268&rtpof=true&sd=true) 
+
+## Inspiration
+
+La inspiración detrás de ConsoliBanco proviene de la necesidad de una solución bancaria unificada y eficiente para gestionar múltiples cuentas desde una sola plataforma. Muchos usuarios tienen varias cuentas en diferentes bancos y carecen de una visión consolidada de sus finanzas, lo que puede dificultar la gestión de sus ingresos, gastos y ahorros.
+## What it does
+
+ConsoliBanco permite a los usuarios conectar varias cuentas bancarias de manera segura, visualizar su saldo total, revisar transacciones recientes y categorizadas, y transferir fondos entre cuentas. Además, genera gráficos de análisis financieros y proporciona herramientas para crear planes financieros personalizados. Incluye un chatbot para asistencia, soporte en tiempo real y una interfaz adaptable a dispositivos móviles.
+
+## How we built it
+
+Construimos ConsoliBanco utilizando un stack moderno que incluye Next.js y TypeScript para el desarrollo frontend, Appwrite para la autenticación y backend, Plaid y Dwolla para la integración con bancos, y React Hook Form junto con Zod para la validación de formularios. Usamos TailwindCSS y ShadCN para una interfaz de usuario ágil y moderna, y Chart.js para la visualización de datos financieros. Las integraciones con Sentry aseguraron la gestión de errores, y Gemini contribuyó a las pruebas y optimizaciones.
+
+## Challenges we ran into
+
+Uno de los mayores retos fue garantizar la seguridad de las transacciones y la conexión bancaria mediante Plaid y Dwolla, asegurando que los datos sensibles se manejen de manera segura. También nos enfrentamos a desafíos en la integración en tiempo real de los cambios de cuenta y saldos, y en garantizar que la aplicación sea completamente adaptable a dispositivos móviles sin sacrificar la experiencia de usuario.Además, que tuvimos el reto de implementar una inteligencia Artificial pata el Chatbot, sin embargo, al usar OpenAI no nos dejaba porque nos acabamos el saldo y no esta bien entrenado por lo que optamos por el uso de Gemini
+
+## Accomplishments that we're proud of
+
+Estamos orgullosos de haber logrado una integración fluida con múltiples bancos y ofrecer una experiencia de usuario confiable y en tiempo real. La creación de gráficos de análisis financieros, el chatbot interactivo, y la funcionalidad de generación de un plan financiero personalizado son características destacadas que proporcionan un valor significativo a los usuarios.
+
+## What we learned
+
+Aprendimos la importancia de diseñar para la escalabilidad y seguridad en aplicaciones financieras, asegurando que la integración con terceros, como Plaid y Dwolla, sea robusta y eficiente. También mejoramos nuestras habilidades en la creación de interfaces adaptables y en la optimización de datos en tiempo real.También como un equipo multidisciplinario te ayuda a mejorar
+
+## What's next for ConsoliBanco
+
+Los próximos pasos para ConsoliBanco incluyen la expansión de la plataforma para integrar más instituciones financieras, mejorar el chatbot con inteligencia artificial avanzada, y ofrecer opciones más personalizadas de planificación financiera basadas en las metas y hábitos de cada usuario. También planeamos optimizar el análisis predictivo para ayudar a los usuarios a anticipar gastos y optimizar sus finanzas a largo plazo.
+
