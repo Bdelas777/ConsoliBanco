@@ -1,6 +1,6 @@
 # ConsoliBanco
 
-#Importante
+## Importante
 
 Poner el state o estado solo con 2 caracteres
 
@@ -47,7 +47,7 @@ Poner el state o estado solo con 2 caracteres
 
 ## <a name="quick-start">¿Cómo usarlo?</a>
 
-Tienes que tener lo siguiente_
+Tienes que tener lo siguiente:
 
 **Prerequisitos**
 
