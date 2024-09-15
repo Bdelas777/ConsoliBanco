@@ -107,6 +107,6 @@ Para obtener esos valores les dejó las siguientes ligas [Appwrite](https://appw
 
 ## <a name="links">🔗 Enlaces</a>
 
-Diagrama  de funcionamiento [here]([https://drive.google.com/file/d/1TVhdnD97LajGsyaiNa6sDs-ap-z1oerA/view?usp=sharing](https://www.canva.com/design/DAGQxak7F4I/NVPAPoPTxWPi5BqwcIfIpg/edit?utm_content=DAGQxak7F4I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton))
+Diagrama  de funcionamiento [here]([https://drive.google.com/file/d/1TVhdnD97LajGsyaiNa6sDs-ap-z1oerA/view?usp=sharing](https://www.canva.com/design/DAGQxak7F4I/NVPAPoPTxWPi5BqwcIfIpg/edit?utm_content=DAGQxak7F4I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-Presentación [here]([[https://drive.google.com/file/d/1TVhdnD97LajGsyaiNa6sDs-ap-z1oerA/view?usp=sharing](https://www.canva.com/design/DAGQxak7F4I/NVPAPoPTxWPi5BqwcIfIpg/edit?utm_content=DAGQxak7F4I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)](https://docs.google.com/presentation/d/1FBAc9GuvSHg6PpeZlqY6fVSpDp47Mdzp/edit?usp=sharing&ouid=101944253581504655268&rtpof=true&sd=true))
+Presentación [here]([[https://drive.google.com/file/d/1TVhdnD97LajGsyaiNa6sDs-ap-z1oerA/view?usp=sharing](https://www.canva.com/design/DAGQxak7F4I/NVPAPoPTxWPi5BqwcIfIpg/edit?utm_content=DAGQxak7F4I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)](https://docs.google.com/presentation/d/1FBAc9GuvSHg6PpeZlqY6fVSpDp47Mdzp/edit?usp=sharing&ouid=101944253581504655268&rtpof=true&sd=true)
