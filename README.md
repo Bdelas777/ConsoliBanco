@@ -1,6 +1,7 @@
 # ConsoliBanco
 
 #Importante
+
 Poner el state o estado solo con 2 caracteres
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
