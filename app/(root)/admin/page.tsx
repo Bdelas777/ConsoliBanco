@@ -10,9 +10,9 @@ export default function Admin() {
   const [hasDebts, setHasDebts] = useState(false);
   const [studentLoans, setStudentLoans] = useState('');
   const [goals, setGoals] = useState('');
-  const [plan, setPlan] = useState(null);
+  const [plan, setPlan] = useState<any>(null); // Especifica el tipo si conoces la estructura del plan
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     // Enviar los datos al backend
@@ -86,7 +86,7 @@ export default function Admin() {
           </div>
           <h3 className="text-xl font-semibold text-center mb-4">Metas Financieras</h3>
           <ul className="list-disc list-inside">
-            {plan.goals.map((goal, index) => (
+            {plan.goals.map((goal: string, index: number) => (
               <li key={index} className="text-gray-700">- {goal}</li>
             ))}
           </ul>
