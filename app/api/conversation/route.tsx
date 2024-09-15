@@ -1,7 +1,7 @@
 import { google } from "@ai-sdk/google";
 import { type CoreMessage, streamText } from "ai";
 
-export const maxDuration = 1024;
+export const maxDuration = 60;
 
 export async function POST(req: Request) {
   const { messages }: { messages: CoreMessage[] } = await req.json();
