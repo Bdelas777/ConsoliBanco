@@ -18,7 +18,7 @@
 - Sentry
 
 
-## <a name="features">🔋 Features</a>
+## <a name="features">🔋 Caracteristicas </a>
 
 - **Autentificación**: Usamos un sistema seguro para validar quien entre con Plaid, Dwolla y Sentry
 
